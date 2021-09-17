@@ -32,7 +32,7 @@ public class CheckboxHtml {
 			
 		}
 		else
-		{System.out.println("checkbox not available");
+		{System.out.println("checkbox not selected");
 		}
 	}
 
