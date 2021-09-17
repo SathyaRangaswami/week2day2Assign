@@ -30,7 +30,8 @@ public static void main(String[] args) {
   Select option1=new Select(option);
    List<WebElement> options2 = option1.getOptions();
    System.out.println(options2.size());
-  //driver.findElement(By.xpath("//select/option[contains(text(),'You can also use sendKeys to select')]/following::option")).sendKeys("Loadrunner");
+   driver.findElement(By.xpath("(//div[@class='example']/select)[5]")).sendKeys("Loadrunner");
+   //driver.findElement(By.xpath("//div/select/option[contains(text(),'You can also use sendKeys to select')]/following::option")).sendKeys("Selenium");
    driver.findElement(By.xpath("//select/option[contains(text(),'Select your programs')]/following::option[2]")).click();
    
    
